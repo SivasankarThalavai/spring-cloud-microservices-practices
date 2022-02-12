@@ -25,6 +25,14 @@ git commit -m "API GW implementation for Dept and User Services" -n
 git push --set-upstream origin step-2-api-gateway
 
 
+Step 3:
+
+ Service Registry(8761), cloud-config-server(9020), cloud-gateway(9191), User Service (9011), Department Service (9012)
+
+ git checkout -b step-3-cloud-config-server step-2-api-gateway
+ git add department-service/ user-service/ service-registry/ cloud-gateway/ cloud-config-server/ assets/
+ git commit -m "Cloud Config Server implementation for Dept and User Services" -n
+ git push --set-upstream origin step-3-cloud-config-server
 
 
 GIT Help
