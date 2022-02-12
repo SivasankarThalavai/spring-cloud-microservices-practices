@@ -6,3 +6,12 @@ spring:
     name: USER-SERVICE
   zipkin:
     base-url: http://127.0.0.1:9411/
+  h2:
+    console:
+      enabled: true
+      settings:
+       web-allow-others: true
+    
+logging:
+  file:
+    name: users-service-log
