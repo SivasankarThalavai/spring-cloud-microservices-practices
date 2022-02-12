@@ -1,8 +1,10 @@
 Step 1:
+
 Services:
 1.	Service Registry (8761), 
 2.	User Service (9011), 
 3.	Department Service (9012)
+
 GIT Commands:
 1.	git checkout -b step-1-service-reistry main 
 2.	git add department-service/ user-service/ service-registry/
@@ -10,11 +12,13 @@ GIT Commands:
 4.	git push --set-upstream origin step-1-service-reistry
 
 Step 2:
+
 Services:
 1.	Service Registry (8761),
 2.	cloud-gateway (9191), 
 3.	User Service (9011), 
 4.	Department Service (9012)
+
 GIT Commands:
 1.	git checkout -b step-2-api-gateway step-1-service-reistry 
 2.	git add department-service/ user-service/ service-registry/ cloud-gateway/ assets/ 
@@ -23,12 +27,14 @@ GIT Commands:
 
 
 Step 3:
+
 Services:
 1.	Service Registry (8761), 
 2.	cloud-config-server (9020), 
 3.	cloud-gateway (9191), 
 4.	User Service (9011), 
 5.	Department Service (9012)
+
 GIT Commands:
 1.	git checkout -b step-3-cloud-config-server step-2-api-gateway 
 2.	git add department-service/ user-service/ service-registry/ cloud-gateway/ cloud-config-server/ assets/ 
