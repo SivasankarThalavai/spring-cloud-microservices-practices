@@ -9,10 +9,10 @@ Department Service (9012)
 
 
 
-git checkout -b step-1-service-reistry main
-git add department-service/ user-service/ service-registry/ README.md
-git commit -m "Eureka Service Registry implementation with Dept and User Services" -n
-git push --set-upstream origin step-1-service-reistry
+1.) git checkout -b step-1-service-reistry main
+2.) git add department-service/ user-service/ service-registry/ README.md
+3.) git commit -m "Eureka Service Registry implementation with Dept and User Services" -n
+4.) git push --set-upstream origin step-1-service-reistry
 
 
 Step 2:
